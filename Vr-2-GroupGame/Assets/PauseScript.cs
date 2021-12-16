@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class PauseScript : MonoBehaviour
 {
-public bool paused;
-Animator animator;
+    public bool paused;
+    Animator animator;
     // Use this for initialization
     void Start () {
         paused = false;
