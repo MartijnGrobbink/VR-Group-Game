@@ -13,14 +13,14 @@ public class AnimationSwiitch : MonoBehaviour
     
     public void OnAnimation1Press()
     {
-        animator.SetInteger("Animation", 0);
+        animator.Play("Jogging");
     }
     public void OnAnimation2Press()
     {
-        animator.SetInteger("Animation", 1);
+        animator.Play("Shuffling");
     }
     public void OnAnimation3Press()
     {
-        animator.SetInteger("Animation", 2);
+        animator.Play("Hip Hop Dancing");
     }
 }
