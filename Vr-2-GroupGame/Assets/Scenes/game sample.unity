@@ -213,7 +213,7 @@ GameObject:
   - component: {fileID: 138789843}
   - component: {fileID: 138789842}
   m_Layer: 5
-  m_Name: DanceButton
+  m_Name: PlankButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -871,7 +871,7 @@ GameObject:
   - component: {fileID: 513959849}
   - component: {fileID: 513959848}
   m_Layer: 5
-  m_Name: ShufflingButton
+  m_Name: PushUpButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3175,7 +3175,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Shuffling
+  m_Text: PushUp
 --- !u!222 &1765213359
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4061,7 +4061,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Dance
+  m_Text: Plank
 --- !u!222 &2041968792
 CanvasRenderer:
   m_ObjectHideFlags: 0
