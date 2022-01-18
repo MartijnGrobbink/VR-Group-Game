@@ -17,10 +17,10 @@ public class AnimationSwitch : MonoBehaviour
     }
     public void OnAnimation2Press()
     {
-        animator.Play("Shuffling");
+        animator.Play("IdleToPushUp");
     }
     public void OnAnimation3Press()
     {
-        animator.Play("Hip Hop Dancing");
+        animator.Play("StartPlank");
     }
 }
