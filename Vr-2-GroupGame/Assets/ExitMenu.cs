@@ -5,6 +5,8 @@ using UnityEngine;
 public class ExitMenu : MonoBehaviour
 {
     public GameObject closemenu;
+    public GameObject StartMenu;
+    public GameObject CanvasMenu;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,5 +17,7 @@ public class ExitMenu : MonoBehaviour
     public void ExitButtonPress()
     {
         closemenu.SetActive(false);
+        StartMenu.SetActive(true);
+        CanvasMenu.SetActive(false);
     }
 }
