@@ -826,6 +826,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   closemenu: {fileID: 1341539080}
+  StartMenu: {fileID: 14823858}
+  CanvasMenu: {fileID: 1296873421}
 --- !u!1 &483779361
 GameObject:
   m_ObjectHideFlags: 0
