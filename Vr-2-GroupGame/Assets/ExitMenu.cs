@@ -6,7 +6,7 @@ public class ExitMenu : MonoBehaviour
 {
     public GameObject closemenu;
     public GameObject StartMenu;
-    public GameObject Canvasmenu;
+    public GameObject CanvasMenu;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,6 +18,6 @@ public class ExitMenu : MonoBehaviour
     {
         closemenu.SetActive(false);
         StartMenu.SetActive(true);
-        Canvasmenu.SetActive(false);
+        CanvasMenu.SetActive(false);
     }
 }
