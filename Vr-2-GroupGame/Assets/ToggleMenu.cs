@@ -27,7 +27,7 @@ public class ToggleMenu : MonoBehaviour
 
         if(isActive == true)
         {
-            transform.position = new Vector3(0, 0, (float)0.8);
+            transform.position = new Vector3(0, 0, (float)1);
             transform.SetParent(player.transform, false);
             //setting it to the camera and then removing it so that it stays in the scene
             Vector3 temp = new Vector3(transform.position.x, player.transform.position.y, transform.position.z);
