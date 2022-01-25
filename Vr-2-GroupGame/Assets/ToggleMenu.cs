@@ -25,30 +25,30 @@ public class ToggleMenu : MonoBehaviour
          isActive = !gameObject.activeSelf;
          gameObject.SetActive(isActive);
 
-        if(isActive == true)
+       /* if(isActive == true)
         {
-            transform.position = new Vector3(0, 0, (float)1);
+            transform.position = new Vector3(0, 0, 1);
             transform.SetParent(player.transform, false);
             //setting it to the camera and then removing it so that it stays in the scene
             Vector3 temp = new Vector3(transform.position.x, player.transform.position.y, transform.position.z);
-            transform.SetParent(null);
+            //transform.SetParent(null);
             transform.position = temp;
 
             //setting it up so that the menu looks at the player
             transform.LookAt(player.transform);
             //the menu was mirrored so this is that the menu is turned the right way
             transform.localRotation = Quaternion.Euler(0, transform.eulerAngles.y + 180, 0);
-        }
+        }*/
     }
 
     void Update()
     {
-        float dist = Vector3.Distance(player.transform.position, transform.position);
+        //float dist = Vector3.Distance(player.transform.position, transform.position);
         //when the player moves to much make the menu disapear
-        if(dist > (float)1.3)
+       /* if(dist > (float)1.3)
         {
             isActive = false;
             gameObject.SetActive(isActive);
-         }
+         }*/
     }
 }
